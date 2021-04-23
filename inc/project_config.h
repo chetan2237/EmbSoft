@@ -1,5 +1,5 @@
-#ifndef __PROJECT_CONFIG_H__
-#define __PROJECT_CONFIG_H__
+#ifndef _PROJECT_CONFIG_H_
+#define _PROJECT_CONFIG_H_
 /**
  * @file project_config.h
  * @author Bharath.G ()
@@ -17,8 +17,5 @@
 
 #define F_CPU 16000000UL 	/**< Clock Frequency of MCU is 16 MHz */
 
-#define LED_PORT (PORTB)    /**< LED Port Number */
-#define LED_PIN  (PORTB0)   /**< LED Pin number  */
 
-
-#endif /* __PROJECT_CONFIG_H__ */
+#endif /* _PROJECT_CONFIG_H_ */

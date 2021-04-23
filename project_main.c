@@ -20,12 +20,22 @@
 void peripheral_init(void)
 {
 	/* Configure LED Pin */
-	DDRB |= (1 << DDB0);
+	DDRB =DDRB | (1<<4);  
+    DDRC =DDRC & ~(1<<0);
 }
 
 void change_led_state(uint8_t state)
 {
-	LED_PORT = (state << LED_PIN);
+	 
+        if(PINC & (1<<0))  // if pin 0 of port C is high
+        {
+            PORTB= PORTB | (1<<4);
+             // then pin 4 of port B is high
+        }
+        else   // if above condition is not true
+        {
+            PORTB= PORTB & ~(1<<4);  // pin 4 of port B remain constant
+        }
 }
 
 
@@ -41,13 +51,12 @@ int main(void)
 	/* Initialize Peripherals */
 	peripheral_init();
 
-	for(;;)
+	while (1)
 	{
-        change_led_state(LED_ON);
-		delay_ms(LED_ON_TIME);
+        change_led_state(0x01);
+		delay_ms(1000);
 		
-        change_led_state(LED_OFF);
-		delay_ms(LED_OFF_TIME);	
+        
 	}
 	return 0;
 }

@@ -1,5 +1,5 @@
-#ifndef __BLINKY_H_
-#define __BLINKY_H_
+#ifndef _BLINKY_H
+#define _BLINKY_H
 /**
  * @file blinky.h
  * @author Bharath.G ()
@@ -10,15 +10,6 @@
  * @copyright Copyright (c) 2021
  * 
  */
-
-/**
- * Macro Definitions
- */
-#define LED_ON 	(0x01)			/**< LED state HIGH */
-#define LED_OFF	(0x00)			/**< LED state LOW */
-
-#define LED_ON_TIME     (1000)  /**< LED ON time in milli seconds  */
-#define LED_OFF_TIME    (500)   /**< LED OFF time in milli seconds */
 
 /**
  * Include files
@@ -37,4 +28,4 @@
 void change_led_state(uint8_t state);
 
 
-#endif /** __BLINKY_H_ */
+#endif /** _BLINKY_H */
