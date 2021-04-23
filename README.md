@@ -1,6 +1,6 @@
-# Embedded C Programming Examples with Continuous Integration and Code Quality
+# Embedded C Programming for checking a heater on/off in a car
 
-# LED Blinking 
+# LED Blinking for Heater
 
 ## In Action
 
