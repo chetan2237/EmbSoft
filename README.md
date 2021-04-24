@@ -15,6 +15,7 @@
 |:--:|:--:|
 |![ON](https://github.com/chetan2237/EmbSoft/blob/master/simulation/person_not_present_off.png)|![OFF](https://github.com/chetan2237/EmbSoft/blob/master/simulation/person_not_present_off_2.png)|
 
+
 #### CI and Code Quality
 
 |Build|Cppcheck|Codacy|
