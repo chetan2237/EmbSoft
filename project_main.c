@@ -1,7 +1,7 @@
 /**
  * @file project_main.c
- * @author Bharath.G ()
- * @brief Project to Blink an LED at 1000ms ON and 500 ms OFF Interval
+ * @author Chetan ()
+ * @brief Project to Blink an LED at 1000ms ON 
  * @version 0.1
  * @date 2021-04-23
  * 
