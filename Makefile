@@ -4,7 +4,7 @@ BUILD_DIR = Build
 
 # All Source code files
 SRC = Activity1_main.c\
-src\Activity1.c\
+src/Activity1.c
 #src\Activity2.c
 
 # All header file paths
