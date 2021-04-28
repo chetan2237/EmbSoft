@@ -1,6 +1,6 @@
   /**
  * @file Activity1.c
- * @author Murali ()
+ * @author Chetan()
  * @brief To blink the led when a person occuipes seat and switch on the heater
  * @date 2021-04-23
  */
