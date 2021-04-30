@@ -9,6 +9,12 @@
 |:--:|:--:|
 |![ON](https://github.com/chetan2237/EmbSoft/blob/master/simulation/personsit_on.png)|![OFF](https://github.com/chetan2237/EmbSoft/blob/master/simulation/personsit_off.png)|
 
+
+
+|OFF|OFF|
+|:--:|:--:|
+|![ON](https://github.com/chetan2237/EmbSoft/blob/master/simulation/person_not_present_off.png)|![OFF](https://github.com/chetan2237/EmbSoft/blob/master/simulation/person_not_present_off_2.png)|
+
 # Activity2
 ![ADC](https://github.com/chetan2237/EmbSoft/blob/master/simulation/Activity2.png)
 
@@ -16,12 +22,6 @@
 ![PWM](https://github.com/chetan2237/EmbSoft/blob/master/simulation/Activity3.png)
 
 * If a person not present in the car the heater remains off until the person takes his seat inside the car.
-
-|OFF|OFF|
-|:--:|:--:|
-|![ON](https://github.com/chetan2237/EmbSoft/blob/master/simulation/person_not_present_off.png)|![OFF](https://github.com/chetan2237/EmbSoft/blob/master/simulation/person_not_present_off_2.png)|
-
-
 #### CI and Code Quality
 
 |Build|Cppcheck|Codacy|
