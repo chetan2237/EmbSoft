@@ -1,4 +1,12 @@
-/*
+/**
+ * @file Activity2.h
+ * @author Chetan 
+ * @brief 
+ * @version 0.1
+ * @date 2021-04-30
+ * 
+ * @copyright Copyright (c) 2021
+ * 
  */
 #ifndef __ACTIVITY2_H_
 #define __ACTIVITY2_H_

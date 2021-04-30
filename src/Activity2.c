@@ -1,3 +1,13 @@
+/**
+ * @file Activity2.c
+ * @author Chetan
+ * @brief 
+ * @version 0.1
+ * @date 2021-04-30
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ */
 #include "Activity1.h"
 #include "Activity2.h"
 void InitADC()

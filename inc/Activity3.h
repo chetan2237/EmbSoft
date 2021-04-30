@@ -1,10 +1,8 @@
-#ifndef __ACTIVITY3_H_
-#define __ACTIVITY3_H_
 
 /**
  * @file Activity.h
- * @author Chetan ()
- * @brief Project to Blink an LED connected to AVR328 MCU GPIO Pin
+ * @author Chetan
+ * @brief Project to find PWM an CRO
  * @version 0.1
  * @date 2021-04-23
  * 
@@ -13,6 +11,8 @@
 /**
  * Include files
  */ 
+#ifndef __ACTIVITY3_H_
+#define __ACTIVITY3_H_
 #include <avr/io.h>
 #include <util/delay.h>
 
