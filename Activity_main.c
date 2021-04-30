@@ -7,6 +7,7 @@
 #include "Activity1.h"
 #include "Activity2.h"
 #include "Activity3.h"
+#include "Activity4.h"
 
 /*header files*/
 
@@ -32,19 +33,20 @@ int main(void)
 {
 	/* Initialize Peripherals */
     InitADC();
-    timer();
+    char temp_data;
     uint16_t temp;
 	peripheral_init();
+    timer();
 
 	while (1)
 	{
-        change_led_state(0x01);
+        change_led_state(PD0);
 		delay_ms(1000);
-       
-        temp=ReadADC(0);
-        temp_data=PWM(temp);
-        OCR1A=0;
-         
+         temp=ReadADC(0);
+        _delay_ms(200);
+        temp_data = PWM(temp);
+        UARTWritechar(temp_data);
+        OCR0A=0;
         _delay_ms(200);
 	}
 	return 0;

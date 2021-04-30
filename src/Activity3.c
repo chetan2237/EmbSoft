@@ -22,7 +22,7 @@ char PWM(uint16_t temp)
 
     char temperature;
 
-    if((temp>=0)&&(temp<=210))
+    if((temp>0)&&(temp<=210))
     {
          OCR0A=51;
          temperature=20;
