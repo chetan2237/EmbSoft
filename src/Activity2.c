@@ -1,3 +1,4 @@
+#include "Activity1.h"
 #include "Activity2.h"
 void InitADC()
 {

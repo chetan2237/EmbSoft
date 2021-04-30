@@ -1,6 +1,6 @@
-#ifndef __ACTIVITY1_H_
-#define __ACTIVITY1_H_
-#define F_CPU 16000000UL 	/**< Clock Frequency of MCU is 16 MHz */
+#ifndef __ACTIVITY3_H_
+#define __ACTIVITY3_H_
+
 /**
  * @file Activity.h
  * @author Chetan ()
@@ -25,9 +25,9 @@
  * 
  * @param state Pin level to which the LED Pin should be set
  */
-void change_led_state(uint8_t state);
+void timer();
 
-void delay_ms(uint32_t delay_time);
-void peripheral_init(void);
+char PWM(uint16_t temp);
 
-#endif /** __ACTIVITY1_H_ */
+
+#endif /** __ACTIVITY3_H_ */
