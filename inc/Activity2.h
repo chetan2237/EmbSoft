@@ -1,10 +1,10 @@
 /*
  */
-#ifndef __ACTIVITY1_H_
-#define __ACTIVITY_H_
+#ifndef __ACTIVITY2_H_
+#define __ACTIVITY2_H_
 #include <avr/io.h>
 
-#define F_CPU	20000000
+
 
 #include <avr/io.h>
 #include <avr/interrupt.h>
@@ -17,7 +17,7 @@
  *  Author: SAM
  */
 
-#define F_CPU	20000000
+
 
 #include <avr/io.h>
 #include<util/delay.h>
@@ -26,4 +26,4 @@
 void InitADC();
 
 
-#endif /** __Activity_H_ */
+#endif /** __Activity2_H_ */
